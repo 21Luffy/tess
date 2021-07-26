@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&display=swap");
+button {
+  cursor: pointer;
+}
+
+.head--muve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.head--muve h1 {
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 140%;
+  letter-spacing: 0.175em;
+  color: #344F28;
+}
+.head--muve h1 span {
+  font-weight: bolder;
+}
+.head--muve p {
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 135%;
+  letter-spacing: 0.265em;
+  color: rgba(0, 0, 0, 0.69);
+}
+.head--muve img {
+  margin-top: 73px;
+  margin-right: 294px;
+}
+.head--muve button {
+  margin-top: 70px;
+  width: 530px;
+  height: 62px;
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+  letter-spacing: 0.265em;
+  border: none;
+  border-radius: 10px;
+  color: #F7F7F7;
+  background: #3C3734;
+  -webkit-transition: ease 500ms;
+  transition: ease 500ms;
+}
+.head--muve button:hover {
+  background-color: #529b43;
+  -webkit-transition: ease 300ms;
+  transition: ease 300ms;
+}
+
+.head--flex {
+  margin: 74px 0 0 284px;
+}
+
+.mav--menu {
+  margin: 93px 324px 0 324px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Comfortaa", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mav--menu .logo {
+  font-family: "Roboto", sans-serif;
+}
+.mav--menu .icons__fonts {
+  min-width: 150px;
+  padding-right: 100px;
+}
+.mav--menu .icons__fonts a {
+  color: #6AC359;
+  font-size: 40px;
+}
+.mav--menu .icons__fonts a .fa-viber {
+  -webkit-transition: ease 400ms;
+  transition: ease 400ms;
+}
+.mav--menu .icons__fonts a .fa-viber:hover {
+  -webkit-transition: ease 400ms;
+  transition: ease 400ms;
+  color: #583EBC;
+}
+.mav--menu .icons__fonts a .fa-telegram {
+  -webkit-transition: ease 400ms;
+  transition: ease 400ms;
+}
+.mav--menu .icons__fonts a .fa-telegram:hover {
+  -webkit-transition: ease 400ms;
+  transition: ease 400ms;
+  color: #4E96D4;
+}
+.mav--menu .icons__fonts a .fa-whatsapp {
+  -webkit-transition: ease 400ms;
+  transition: ease 400ms;
+}
+.mav--menu .icons__fonts a .fa-whatsapp:hover {
+  -webkit-transition: ease 400ms;
+  transition: ease 400ms;
+  color: #00E676;
+}
+.mav--menu p {
+  font-weight: 400;
+  color: #00000098;
+  font-size: 12px;
+}
+.mav--menu a {
+  font-family: Comfortaa;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #1C1C1C;
+  margin-top: 10px;
+  text-decoration: none;
+}

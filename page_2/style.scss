@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
+$fontS:'Comfortaa',
+cursive;
+$fontR:'Roboto',
+sans-serif;
+
+button {
+    cursor: pointer;
+}
+
+.head--muve {
+    display: flex;
+    justify-content: space-around;
+
+    h1 {
+        font-family: $fontS;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 140%;
+        letter-spacing: 0.175em;
+        color: #344F28;
+
+        span {
+            font-weight: bolder;
+        }
+    }
+
+    p {
+        font-family: $fontS;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 135%;
+        letter-spacing: 0.265em;
+        color: rgba(0, 0, 0, 0.69);
+    }
+
+    img {
+        margin-top: 73px;
+        margin-right: 294px;
+    }
+
+    button {
+        margin-top: 70px;
+        width: 530px;
+        height: 62px;
+        font-family: $fontS;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 135%;
+        text-align: center;
+        letter-spacing: 0.265em;
+        border: none;
+        border-radius: 10px;
+        color: #F7F7F7;
+        background: #3C3734;
+        transition: ease 500ms;
+        &:hover {
+            background-color: #529b43;
+            transition: ease 300ms;
+        }
+    }
+}
+
+.head--flex {
+    margin: 74px 0 0 284px;
+}
+
+.mav--menu {
+    margin: 93px 324px 0 324px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: $fontS;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .logo {
+        font-family: $fontR;
+    }
+
+    .icons__fonts {
+        min-width: 150px;
+        padding-right: 100px;
+
+        a {
+            color: #6AC359;
+            font-size: 40px;
+
+            .fa-viber {
+                transition: ease 400ms;
+
+                &:hover {
+                    transition: ease 400ms;
+                    color: #583EBC;
+                }
+            }
+
+            .fa-telegram {
+                transition: ease 400ms;
+
+                &:hover {
+                    transition: ease 400ms;
+                    color: #4E96D4;
+                }
+            }
+
+            .fa-whatsapp {
+                transition: ease 400ms;
+
+                &:hover {
+                    transition: ease 400ms;
+                    color: #00E676;
+                }
+            }
+        }
+    }
+
+    p {
+        font-weight: 400;
+        color: #00000098;
+        font-size: 12px;
+    }
+
+    a {
+        font-family: Comfortaa;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        color: #1C1C1C;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+}
