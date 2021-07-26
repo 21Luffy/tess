@@ -3,11 +3,17 @@ $fontS:'Comfortaa',
 cursive;
 $fontR:'Roboto',
 sans-serif;
-
+*{
+    margin: 0;
+}
 button {
     cursor: pointer;
 }
-
+header{
+    background: #F9F7EE;
+    padding-top: 93px;
+    padding-bottom: 101px;
+}
 .head--muve {
     display: flex;
     justify-content: space-around;
@@ -42,7 +48,7 @@ button {
     }
 
     button {
-        margin-top: 70px;
+        margin-top: 44px;
         width: 530px;
         height: 62px;
         font-family: $fontS;
@@ -65,11 +71,34 @@ button {
 }
 
 .head--flex {
-    margin: 74px 0 0 284px;
+    margin: 74px 0 0 184px;
+}
+.head__bonus{
+    p{
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        .img1{
+            margin-left: -3px;
+            margin-right: 3px;
+        }
+        .img2{
+            margin-left: -5px;
+            margin-right: 5px;
+        }
+        .img3{
+            margin-left: -6px;
+            margin-right: 3px;
+        }
+
+        img{
+            margin: 0;
+        }
+    }
 }
 
 .mav--menu {
-    margin: 93px 324px 0 324px;
+    margin: 0px 324px 0 324px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -87,7 +116,7 @@ button {
 
     .icons__fonts {
         min-width: 150px;
-        padding-right: 100px;
+        // padding-right: 100px;
 
         a {
             color: #6AC359;

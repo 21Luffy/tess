@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+}
+
 button {
   cursor: pointer;
+}
+
+header {
+  background: #F9F7EE;
+  padding-top: 93px;
+  padding-bottom: 101px;
 }
 
 .head--muve {
@@ -36,7 +46,7 @@ button {
   margin-right: 294px;
 }
 .head--muve button {
-  margin-top: 70px;
+  margin-top: 44px;
   width: 530px;
   height: 62px;
   font-family: "Comfortaa", cursive;
@@ -60,11 +70,36 @@ button {
 }
 
 .head--flex {
-  margin: 74px 0 0 284px;
+  margin: 74px 0 0 184px;
+}
+
+.head__bonus p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+}
+.head__bonus p .img1 {
+  margin-left: -3px;
+  margin-right: 3px;
+}
+.head__bonus p .img2 {
+  margin-left: -5px;
+  margin-right: 5px;
+}
+.head__bonus p .img3 {
+  margin-left: -6px;
+  margin-right: 3px;
+}
+.head__bonus p img {
+  margin: 0;
 }
 
 .mav--menu {
-  margin: 93px 324px 0 324px;
+  margin: 0px 324px 0 324px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -86,7 +121,6 @@ button {
 }
 .mav--menu .icons__fonts {
   min-width: 150px;
-  padding-right: 100px;
 }
 .mav--menu .icons__fonts a {
   color: #6AC359;
